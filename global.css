@@ -1,14 +1,13 @@
-body {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.65;
-  word-break: break-word;
-  font-kerning: auto;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  hyphens: auto;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .link{
+        @apply hover:underline cursor-pointer;
+    }
+    .button{
+        @apply bg-[#f8f9fa]  p-3 rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md;
+    }
 }
