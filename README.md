@@ -1,5 +1,8 @@
 # GitHub Codespaces ♥️ Next.js
 
+The website is live on : https://google-2-0-git-main-ashish-1016.vercel.app/
+
+
 Welcome to your shiny new Codespace running Next.js! We've got everything fired up and running for you to explore Next.js.
 
 You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
